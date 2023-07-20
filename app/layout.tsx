@@ -1,6 +1,9 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import React from 'react';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import Providers from '@/app/Providers';
 
 export const metadata: Metadata = {
   title: 'Todolist App',
@@ -10,7 +13,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='en'>
-      <body>{children}</body>
+      <body className='flex h-screen flex-col'>
+        <Providers>
+          <Header />
+          {children}
+          <Footer />
+        </Providers>
+      </body>
     </html>
   );
 }

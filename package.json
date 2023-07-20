@@ -10,6 +10,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@svgr/webpack": "^8.0.1",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
@@ -17,6 +18,7 @@
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
     "next": "13.4.10",
+    "next-themes": "^0.2.1",
     "postcss": "8.4.26",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -25,8 +27,8 @@
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.8.0",
+    "husky": "^8.0.0",
     "prettier": "^3.0.0",
-    "prettier-plugin-tailwindcss": "^0.4.1",
-    "husky": "^8.0.0"
+    "prettier-plugin-tailwindcss": "^0.4.1"
   }
 }
