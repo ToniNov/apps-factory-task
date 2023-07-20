@@ -1,8 +1,8 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
-import { Sun } from '../public/swg';
-import { Moon } from '../public/swg';
+import { Sun } from '../../public/swg';
+import { Moon } from '../../public/swg';
 
 const DarkModeBtn = () => {
   const [mounted, setMounted] = useState(false);
